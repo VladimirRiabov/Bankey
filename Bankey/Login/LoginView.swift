@@ -88,11 +88,7 @@ extension LoginView: UITextFieldDelegate {
     
     //what is actually in that text field
     func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
-        if textField.text != "" {
-            return true
-        } else {
-            return false
-        }
+        return true
     }
     
     func textFieldDidEndEditing(_ textField: UITextField) {
