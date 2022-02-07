@@ -99,7 +99,7 @@ extension LoginViewController {
             assertionFailure("Username / password should never be nil")
             return
         }
-        
+            //123
         if username.isEmpty || password.isEmpty {
             configureView(withMessage: "Username / password cannot be blank")
             return
