@@ -14,6 +14,7 @@
 		A494655E27AEA6FF0088F180 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A494655C27AEA6FF0088F180 /* LaunchScreen.storyboard */; };
 		A494656927AEABB80088F180 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A494656827AEABB80088F180 /* LoginView.swift */; };
 		A494656C27B0D5A90088F180 /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A494656B27B0D5A90088F180 /* OnboardingContainerViewController.swift */; };
+		A4CE5E6027B31790009565DD /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CE5E5F27B31790009565DD /* DummyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A494655F27AEA6FF0088F180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A494656827AEABB80088F180 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		A494656B27B0D5A90088F180 /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
+		A4CE5E5F27B31790009565DD /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				A494655527AEA6FE0088F180 /* LoginViewController.swift */,
 				A494656827AEABB80088F180 /* LoginView.swift */,
+				A4CE5E5F27B31790009565DD /* DummyViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A494656927AEABB80088F180 /* LoginView.swift in Sources */,
+				A4CE5E6027B31790009565DD /* DummyViewController.swift in Sources */,
 				A494655627AEA6FE0088F180 /* LoginViewController.swift in Sources */,
 				A46AC75327B15BB6002FCA1A /* OnboardingViewController.swift in Sources */,
 				A494655227AEA6FE0088F180 /* AppDelegate.swift in Sources */,
